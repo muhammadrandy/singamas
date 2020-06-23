@@ -38,7 +38,7 @@
                   <span class="direct-chat-name pull-right" style="margin-right: 7px;"><?=$row->nama?></span>
                 </div><!-- /.direct-chat-img -->
                 <div class="clearfix">
-                  <img src="../../../web/uploads/pengaduan/<?=$row->foto?>" width="230px" style="margin: 5px; float: right;">
+                  <img src="<?=site_url()?>/uploads/pengaduan/<?=$row->foto?>" width="230px" style="margin: 5px; float: right;">
                 </div>
                 <div class="direct-chat-text pull-right">
                   <?=$row->isi?>
@@ -96,7 +96,7 @@
                         <small class="contacts-list-date pull-right"><?=tanggal($row->tgl_pengaduan)?></small>
                       </span>
                   	<center>
-                      	<img src="../../../web/uploads/pengaduan/<?=$row->foto?>" width="470px" style="margin: 10px 0;">
+                      	<img src="<?=site_url()?>/uploads/pengaduan/<?=$row->foto?>" width="470px" style="margin: 10px 0;">
                   	</center>
                     </div>
                     <!-- /.contacts-list-info -->

@@ -79,7 +79,7 @@
                         <small class="contacts-list-date pull-right"><?=tanggal($row->tgl_pengaduan)?></small>
                       </span>
                     <center>
-                        <img src="../../../web/uploads/pengaduan/<?=$row->foto?>" width="470px" style="margin: 10px 0;">
+                        <img src="<?=site_url()?>/uploads/pengaduan/<?=$row->foto?>" width="470px" style="margin: 10px 0;">
                     </center>
                     </div>
                     <!-- /.contacts-list-info -->
